@@ -11,7 +11,6 @@ function mergeTwoList(array) {
         } else {
             odd.push(array[i]);
         }
-    }
-    
+    } 
     return odd.concat(even);
 }
